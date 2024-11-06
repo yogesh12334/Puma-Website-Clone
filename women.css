@@ -1,0 +1,761 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans+Condensed:wght@200..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Reddit' , sans-serif;
+}
+
+
+body{
+    height: 1000vh;
+    overflow-x: hidden;
+}
+
+.head{  
+    height: 44px;
+    background-color: #8A7350;
+}
+
+.para p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+    height: 48px;
+    font-size: 16px;
+    text-align: center;
+}
+.click{
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 1rem;
+}
+.nav{   
+        position: sticky;         
+        top: 0px;                  
+        z-index: 1000;       
+        background-color: black;  
+        height: 70px;              
+        margin-top: -4px;         
+        padding: 8px 35px;         
+        width: 100%;           
+    
+}
+ .nav .logo{
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-links li{
+    margin-left: 10px;
+    margin: 30px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.nav-links li a{
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.nav-links li a:hover{
+    color: rgb(204, 201, 201);          
+    transition: width 0.3s ease;
+}
+
+ 
+
+.btn{
+    width: 7.5rem;
+    height: 45px;
+    margin: 10px;
+    margin-left: 22%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: 1.5px solid rgb(86, 84, 84);
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btn:hover{
+    border: 1.5px solid rgb(188, 181, 181);
+}
+.btn i{
+   margin-right: 8px;
+}
+
+.icons {
+    margin-left: 20px;
+    margin-top: -5px;
+    text-align: center; 
+}
+
+.icons a {
+    position: relative;
+    display: inline-block; 
+    margin: 13px; 
+    text-decoration: none;
+    font-size: 27px;
+    color: white; 
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%; 
+    transition: all 0.3s ease;
+}
+
+.icons a:hover {
+    color: #fff; 
+    background-color: #3d3d3d; 
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+
+.extra{
+    width: 100%;
+    height: 75.975px;
+    background-color: #414584;
+}
+.order{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+    height: 48px;
+    text-align: center;
+}
+
+.auto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: white;
+    margin-top: -8px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.home .para{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.home .para:hover{
+    color: #373737;
+}
+.home .women{
+    margin-top: -17px;
+    margin-left: 5%;
+   color: #373737;
+   cursor: pointer;
+}
+.heading{
+    margin-top: 14%;
+    margin-left: 20px;
+}
+
+.filter{
+    margin-top: 30px;
+    width: 100%;
+    height: 80px;
+    padding: 20px 20px;
+    border: 2px solid  rgb(229, 231, 235);
+    box-sizing: border-box;
+}
+
+.buttons1{
+    width: 134.6px;
+    height: 40px;
+    border: none;
+    border: 1.5px solid rgb(161, 168, 175);
+    font-size: 17px;
+    color: black; 
+    font-weight: 550;  
+    cursor: pointer;
+}
+
+.buttons1:hover{
+    border: 1.5px solid rgb(22, 22, 22);
+}
+
+.buttons2{
+    width: 134.6px;
+    height: 40px;
+    margin-left: 80%;
+    border: none;
+    border: 1.5px solid rgb(161, 168, 175);
+    font-size: 17px;
+    font-weight: 550;
+    color: black;   
+    cursor: pointer;
+}
+
+.buttons2:hover{
+    border: 1.5px solid rgb(22, 22, 22);
+}
+
+.products{
+    color: black;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.images{
+    margin-top: 50px;
+    margin-left: 28px;
+    position: relative;
+    display: flex;
+    gap: 6rem;
+}
+
+.images2{
+    margin-top: 50px;
+    margin-left: 28px;
+    position: relative;
+    display: flex;
+    gap: 7rem;
+}
+
+
+.images-img{
+    display: flex;
+    margin-left: 30px;
+    gap: 8rem;
+}
+
+.img{
+    position: relative;
+}
+
+.img img{
+    width: 294.125px;
+    height: 294.125px;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+}
+
+.dis{
+    position: absolute;
+    top: 1px;
+    left: 1px; 
+    width: 60.325px;
+    height: 24px;
+    background-color: rgb(172, 30, 30);
+    color: white; 
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1; 
+    padding: 2px 5px;
+    cursor: pointer;
+}
+
+.dis1{
+    position: absolute;
+    top: -.1px;
+    left: .1px; 
+    width: 60.325px;
+    height: 24px;
+    background-color: rgb(172, 30, 30);
+    color: white; 
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1; 
+    padding: 2px 5px;
+    cursor: pointer;
+}
+
+
+.description{
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.description .price{
+    color: red;
+    margin-left: 15px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.description .shoe{
+   font-weight: bold;
+   display: block;
+   margin-top: 6px;
+   cursor: pointer;
+}
+/* its price classes of all product */
+.price1{
+    color: black;
+    display: inline-block;
+    position: relative;
+    top: -40px;
+    margin-left: 99%;
+    cursor: pointer;
+}
+
+.price2{
+    color: red;
+    display: inline-block;
+    position: relative;
+    top: -42.5px;
+    margin-left: 105%;
+    cursor: pointer;
+}
+
+.description .shoe1{
+    font-weight: bold;
+    display: block;
+    margin-top: 6px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.description .shoe2{
+    font-weight: bold;
+    display: block;
+    margin-top: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.price3{
+   margin-left: 20px;
+   
+}
+
+.price4{
+    margin-left: 20px;
+    font-size: 16.5px;
+}
+
+.price5{
+    margin-left: 20px;
+}
+
+.price6{
+    color: red;
+    display: inline-block;
+    position: relative;
+    top: -42.5px;
+    margin-left: 93%;
+    cursor: pointer;
+}
+
+.price7{
+    color: red;
+    display: inline-block;
+    position: relative;
+    top: -42.5px;
+    margin-left: 92%;
+    cursor: pointer;
+}
+
+.price8{
+    color: red;
+    display: inline-block;
+    position: relative;
+    top: -42.5px;
+    margin-left: 92%;
+    cursor: pointer;
+}
+
+.price9{
+    display: inline-block;
+    position: relative;
+    top: -19px;
+    margin-left: 51%;
+    cursor: pointer;
+}
+
+.price10{
+    display: inline-block;
+    position: relative;
+    top: -2px;
+    margin-left: 70%;
+    cursor: pointer;
+}
+
+.price11{
+    display: inline-block;
+    position: relative;
+    top: -18px;
+    margin-left: 70%;
+    cursor: pointer;
+}
+
+.price12{
+    display: inline-block;
+    position: relative;
+    top: -18px;
+    margin-left: 73%;
+    cursor: pointer;
+}
+/* end*/
+
+.women-jackets{
+    margin-top: 45px;
+    margin-left: 30px;
+}
+
+
+.images1{
+    margin-top: 60px;
+    display: flex;
+    margin-left: 28px;
+    gap: 35px;
+    cursor: pointer;
+}
+
+.images1 img{
+    width: 380px;
+    height: 380px;
+    cursor: pointer;
+}
+
+.images1 .img1{
+    width: 380px;
+    height: 380px;
+    cursor: pointer;
+}
+
+.description1{
+    margin-top: 20px;
+    margin-left: 5px;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.description2{
+    margin-top: 20px;
+    margin-left: 1px;
+    font-size: 15.8px;
+    font-weight: 550;
+    position: relative;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.description3{
+    margin-top: 20px;
+    margin-left: 8px;
+    font-size: 16px;
+    font-weight: 550;
+    position: relative;
+    cursor: pointer;
+}
+
+.description4{
+    margin-top: 20px;
+    margin-left: -2px;
+    font-size: 16px;
+    font-weight: 550;
+    position: relative;
+    cursor: pointer;
+}
+
+.description5{
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 17px;
+    font-weight: 550;
+    position: relative;
+    cursor: pointer;
+}
+
+.description6{
+    margin-top: 20px;
+    margin-left: -2px;
+    font-size: 16.5px;
+    font-weight: 550;
+    position: relative;
+    cursor: pointer;
+}
+
+/* is price id of all products*/
+#price1{
+    margin-left: 30%;
+   position: relative;
+   top: -19px;  
+   font-size: 16.5px; 
+   font-weight: 550;
+   cursor: pointer;
+}
+
+#price2{
+    margin-left: 39px;  
+    font-size: 17px;
+    font-size: 16.5px;
+    cursor: pointer;
+}
+
+#price3{
+    position: relative;
+    top: -1px;
+    margin-left: 3%;
+    font-size: 16.5px;
+}
+
+#price4{
+    position: relative;
+    margin-top: -10px;
+    margin-left: 68%;
+    cursor: pointer;
+}
+
+#price5{
+    position: relative;
+    top: -19px;
+    margin-left: 68%;
+    cursor: pointer;
+}
+
+#price6{
+    position: relative;
+    top: -19px;
+    margin-left: 71%;
+    cursor: pointer;
+}
+
+#price7{
+    position: relative;
+    top: -20px;
+    margin-left: 40%;
+    cursor: pointer;
+    font-size: 16.5px;
+}
+
+#price8{
+    position: relative;
+    top: -19px;
+    margin-left: 50%;
+    cursor: pointer;
+    font-size: 16.5px;
+}
+
+#price9{
+    position: relative;
+    top: -37px;
+    margin-left: 85%;
+    cursor: pointer;
+    font-size: 16.5px;
+}
+
+#price10{
+    position: relative;
+    top: 1px;
+    margin-left: 10%;
+    cursor: pointer;
+    font-size: 16.5px;
+}
+
+#price11{
+    position: relative;
+    top: -19px;
+    margin-left: 19%;
+    cursor: pointer;
+    font-size: 16.5px;
+}
+
+#price12{
+    position: relative;
+    top: 1px;
+    margin-left: 20%;
+    cursor: pointer;
+}
+
+#price13{
+    position: relative;
+    top: -17px;
+    margin-left: 65%;
+    cursor: pointer;
+}
+
+#price14{
+    position: relative;
+    top: -20px;
+    margin-left: 63%;
+    cursor: pointer;
+}
+
+#price15{
+    position: relative;
+    top: -20px;
+    margin-left: 85%;
+    cursor: pointer;
+}
+
+#price16{
+    position: relative;
+    top: -1px;
+    margin-left: 3%;
+    cursor: pointer;
+}
+
+#price17{
+    position: relative;
+    top: -19px;
+    margin-left: 73%;
+    cursor: pointer;
+}
+
+#shoe1{
+    position: relative;
+    top: 3px;
+    cursor: pointer;
+}
+
+#shoe2{
+    position: relative;
+    top: 3px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#shoes2{
+    position: relative;
+    top: 24px;
+    margin-left: -77%;
+    cursor: pointer;
+}
+
+
+.footer{
+    margin-top: 190px;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(23, 23, 23);
+    padding: 20px 0;
+}
+
+.support{
+    padding-top: 25px;
+    padding-left: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+ul a{
+    display: block;
+    font-size: 17px;
+}
+
+.support ul p {
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-size: 20px;
+  }
+
+.support a {
+    display: block;
+    color: #fff; 
+    text-decoration: none;
+    margin-bottom: 10px;
+    line-height: 1; 
+    cursor: pointer;
+}  
+
+.stay{
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: left;
+    margin-right: -23%;
+}
+
+.icons1{
+    margin-left: 10px;
+    margin-top: 60px;
+    text-align: center; 
+    
+}
+
+.icons1 a {
+    position: relative;
+    display: inline-block; 
+    margin: 8px; 
+    text-decoration: none;
+    font-size: 27px;
+    color: white; 
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%; 
+    transition: all 0.3s ease;
+  }
+
+.icons1 a:hover {
+    color: #fff; 
+    background-color: #3d3d3d; 
+}
+
+.line{
+    margin-top: 30px;
+    width: 90%;
+    height: 0.8px;
+    background-color: rgb(223, 224, 225);
+    margin-left: 80px;
+}
+
+#btn4{
+    width: 7.6rem;
+    height: 45px;
+    margin-top: 40px;
+     margin-left: 46%;
+     font-size: 18px;
+     border: none;
+     background-color: black;
+     color: white;
+     border: 1.5px solid rgb(86, 84, 84);
+     font-weight: bold;
+     cursor: pointer;
+}
+
+#btn4:hover{
+    border: 1.5px solid rgb(188, 181, 181);
+}
